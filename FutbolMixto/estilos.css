@@ -1,0 +1,318 @@
+
+body{
+    height: 100%;
+    background-image: url(imagenes/fondohead.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+#navegacion {
+    height: 10%;
+    width: 100%;
+}
+#navegacion nav {
+    width: 100%;
+}
+#navegacion ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#navegacion ul li {
+    width: 10em;
+    list-style: none;
+    margin: 0 5% 0 0;
+    font-size: 1em;
+    font-family: 'Bungee', bold;
+    text-align: center;
+}
+#navegacion a:link, #navegacion a:visited, #navegacion a:active {
+    text-decoration: none;
+    color: white;
+}
+#navegacion a:hover {
+    text-shadow: 4px 4px #9D07E3;
+}
+#cabecera {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#imgCabecera {
+    height: 100%;
+    width: 30em;
+}
+
+#imgCabecera img {
+    width: 90%;
+    min-width: 90%;
+    padding: 1em;
+}
+#logo {
+    height: 100%;
+    width: 15em;
+}
+#logo img {
+    width: 80%;
+    padding: 1em;
+    border-radius: 15em;
+}
+
+
+.tituloPrincipal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+#titPrincipal {
+    font-family: 'Caveat', bold;
+    font-size: 4em;
+    text-align: center;
+    color: aliceblue;
+    margin: 0em;
+    border: 3px;
+    border-style: solid none none none;
+    border-color: white;
+}
+
+.logo {
+    height: 100px;
+}
+#presentacion {
+    width: 100%;
+    border: 3px;
+    border-style: solid none solid none;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: space-around;
+}
+.txtPresent {
+    width: 80%;
+    align-content: center;
+    margin: auto;
+}
+
+.txtPresent p {
+    height: 100%;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    color: aliceblue;
+    padding: 1em;
+    margin: 0em;
+}
+
+.imgPresent {
+    width: 70%;
+    align-content: center;
+    margin: auto;
+}
+.imgUno img {
+    max-width: 100%;
+    border-radius: 3em 0em 3em 0em;   
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Caveat', bold;
+    font-size: 3em;
+    color: white;
+}
+
+#nuestrosServicios {
+    width: 100%;
+    border: 3px;
+    border-style: none none solid none;
+    border-color: white;
+    padding-bottom: 2em;
+}
+
+.titServicios {
+    width: 100%;
+    text-align: center;
+}
+.contenidoServicios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.listaServicios {
+    width: 800px;
+    border: 1em;
+    border-color: white;
+}
+.listaServicios li {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin: 0em;
+    padding: .3em;
+    line-height: 1em;
+}
+.imgServicios {
+    width: 300px;
+    min-width: 300px;
+    align-content: center;
+    border: 1em;
+}
+.imgServicios video {
+    min-width: 350px;
+    height: 500px;
+    border-radius: 3em 0em 3em 0em;  
+}
+#resumenFechas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarjeta{
+    width: 300px;
+    background-image: url(imagenes/fondohead.jpg);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em 0em 1em 0em; 
+    
+}
+.tarjeta a:visited, .tarjeta a:link, .tarjeta a:active {
+    text-decoration: none;
+    color: white;
+}
+.marcoTarjeta a:hover {
+    color: black;
+}
+.marcoTarjeta {
+    width: 90%;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: #9D07E3;
+    padding: 1em;
+    margin: auto;
+    border-radius: 1em 0em 1em 0em; 
+    text-align: center;
+}
+
+
+.marcoTarjeta img {
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    opacity: 1;
+    border-radius: 1em 0em 1em 0em; 
+}
+.textoTarjeta {
+    color: white;
+    padding: 1em;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    
+}
+.textoTarjeta h2 {
+    text-align: center;
+    font-size: 2em;
+}
+.textoTarjeta p {
+    color: white;
+    font-size: 1.5em;
+    padding: 1em;
+}
+.textoTarjeta h3 {
+    font-family: 'Caveat', bold;
+    text-align: right;
+    font-size: 2em;
+}
+
+.resultados {
+    width: 100%;
+    border: 3px;
+    border-style: solid none solid none;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+.resultados h2{
+    width: 50%;
+    margin: auto;
+}
+.contImg {
+    width: 30em;
+    align-content: center;
+    margin: 2em;
+}
+
+.contImg img {
+    max-width: 100%;
+    border-radius: 3em 0em 3em 0em;   
+}
+.zonas {
+    width: 100%;
+    border: 3px;
+    border-style: none none solid none;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+.zonas h2 {
+    width: 100%;
+}
+.goleadores {
+    width: 100%;
+    border: 3px;
+    border-style: none none solid none;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+.goleadores h2{
+    width: 100%;
+}
+.proximaFecha {
+    width: 100%;
+    border: 3px;
+    border-style: none none solid none;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+.proximaFecha h2{
+    width: 50%;
+    margin: auto;
+}
+
